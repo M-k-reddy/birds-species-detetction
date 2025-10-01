@@ -1,83 +1,48 @@
-# Getting Started with Create React App
+Getting Started with the Birds Species Detection React App
+This project is built with Create React App and allows you to detect bird species from uploaded images.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
+Available Scripts
 In the project directory, you can run:
 
-### `npm start`
+npm start
+Runs the app in development mode.
+Open http://localhost:3000 in your browser.
+The page reloads with changes, and lint errors will show in the console.
+npm test
+Launches the test runner in interactive watch mode.
+For more info, see the testing documentation.
+npm run build
+Builds the app for production in the build folder.
+Optimizes the build for performance with minified files and hashed names.
+npm run eject
+Note: This is a one-way operation. Once you eject, you cannot go back!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+If you want full control over the build configuration, you can eject. This copies all configuration files into your project, but be aware that you’ll be responsible for maintaining them.
+Setup Instructions
+Add Google Cloud Service Account Key:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Create an account on Google Cloud.
+Enable the Google Cloud Vision API.
+Create an API key and download the service_account_key.json file.
+Run the Backend:
 
-### `npm test`
+Copy
+cd backend
+python app.py
+Run the React App:
+Open a new terminal and run:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-Birds-species-detection:
-To run firstly add the service_account_key.json files from the Google cloud platform.
-Initially create an account in the Gcloud and then go to apis and select Google Cloud Vision Api  and create an api key and download the key.
-...
-# start with cd backend
-# run the python.app.py
-# open new terminal and run npm start 
-# the react App gets started and you can upload the images
-<img width="1910" height="929" alt="image" src="https://github.com/user-attachments/assets/e679b7ea-f6bc-4f6a-8ec8-f927919f26ac" />
-<img width="1899" height="908" alt="image" src="https://github.com/user-attachments/assets/adf1de0b-8edb-4036-bf74-087269ac2134" />
+Copy
+npm start
+Upload Images:
+The React app will start, allowing you to upload images for species detection.
+<img width="1910" height="929" alt="image" src="https://github.com/user-attachments/assets/95bfd987-dcfd-49c5-9a96-4726fc749169" />
 
 
+Birds Species Detection
+Image Upload Example
+<img width="1899" height="908" alt="image" src="https://github.com/user-attachments/assets/57464d60-2b5e-4d2f-99d6-a14383960f7d" />
+
+Learn More
+Check the Create React App documentation for more details.
+To learn React, visit the React documentation.
