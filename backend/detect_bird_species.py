@@ -2,7 +2,7 @@ import os
 from google.cloud import vision
 
 # Set up Google Cloud credentials
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\karun\Downloads\birds\backend\credentials.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\path\Downloads\birds\backend\credentials.json"#replace with the original path
 
 def detect_bird_species(image_path):
     """Detects bird species from an image using Google Cloud Vision API"""
@@ -23,5 +23,6 @@ def detect_bird_species(image_path):
 
     # Extract bird species with confidence threshold
     birds = [obj.name for obj in objects if obj.score > 0.5]
+
 
     return birds
