@@ -70,7 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 Birds-species-detection:
-To run firstly add the credentials.json file and service_account_key.json files from the Google cloud platform.
+To run firstly add the service_account_key.json files from the Google cloud platform.
 Initially create an account in the Gcloud and then go to apis and select Google Cloud Vision Api  and create an api key and download the key.
 ...
 # start with cd backend
