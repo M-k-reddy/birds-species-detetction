@@ -25,14 +25,10 @@ Create an account on Google Cloud.
 Enable the Google Cloud Vision API.
 Create an API key and download the service_account_key.json file.
 Run the Backend:
-
-Copy
 cd backend
 python app.py
 Run the React App:
 Open a new terminal and run:
-
-Copy
 npm start
 Upload Images:
 The React app will start, allowing you to upload images for species detection.
