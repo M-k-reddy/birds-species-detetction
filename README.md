@@ -77,3 +77,5 @@ Initially create an account in the Gcloud and then go to apis and select Google 
 # run the python.app.py
 # open new terminal and run npm start 
 # the react App gets started and you can upload the images
+<img width="1910" height="929" alt="image" src="https://github.com/user-attachments/assets/e679b7ea-f6bc-4f6a-8ec8-f927919f26ac" />
+
